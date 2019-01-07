@@ -6,4 +6,4 @@ A countdown library for CLI scripts.
 `composer require nuffy/cli-countdown`
 
 ## Usage
-`\nuffy\cliCountdown\Countdown::simple(60);`
+`\nuffy\cliCountdown\Countdown::Simple(60);`
