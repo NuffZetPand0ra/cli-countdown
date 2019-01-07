@@ -25,7 +25,7 @@ class Countdown
      * @param int $seconds Amount of seconds to count down.
      * @param string $descript Description of what's going to happen when the countdown ends. Should be compatible with sprintf, with %s as the carbon response.
      */
-    public static function simple(int $seconds, string $descript = 'Continuing %s')
+    public static function Simple(int $seconds, string $descript = 'Continuing %s')
     {
         echo self::clearLine().sprintf($descript, self::continuingIn($seconds));
         for($s = $seconds; $s > 0; $s--) {
