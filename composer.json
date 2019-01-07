@@ -9,9 +9,9 @@
             "email": "esbentind@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {
-        "nesbot/carbon": "^2.10"
+        "nesbot/carbon": "dev-master"
     },
     "autoload":{
         "psr-4": {"nuffy\\cliCountdown\\": "src/"}
