@@ -1,0 +1,20 @@
+{
+    "name": "nuffy/cli-countdown",
+    "description": "A countdown for cli scripts.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "NuffZetPand0ra",
+            "email": "esbentind@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "symfony/translation": "4.1",
+        "nesbot/carbon": "^2.10"
+    },
+    "autoload":{
+        "psr-4": {"nuffy\\cliCountdown\\": "src/"}
+    }
+}
