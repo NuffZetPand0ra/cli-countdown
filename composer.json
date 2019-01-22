@@ -10,6 +10,7 @@
         }
     ],
     "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "nesbot/carbon": "dev-master"
     },
