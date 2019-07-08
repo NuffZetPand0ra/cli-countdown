@@ -12,7 +12,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "nesbot/carbon": "dev-master"
+        "nesbot/carbon": "*"
     },
     "autoload":{
         "psr-4": {"nuffy\\cliCountdown\\": "src/"}
